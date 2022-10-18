@@ -77,21 +77,25 @@ label {
     text-align: center;
 }
 
-.calcular, button {
+.result, button {
     background: rgb(255, 255, 255);
-    font-size: 1rem;
+    font-size: 1.5rem;
     width: 17rem;
-    height: 2rem;
+    height: 3rem;
+    margin-top: 1rem;
     border-radius: .5rem;
     cursor: pointer;
+    font-weight: 600;
     
 }
 
-.mensage-box {
-    width: 17rem;
-    height: 9rem;
+.result {
+    width: 15rem;
+    height: 7rem;
     border: .1rem solid;
     border-radius: 1rem;
-    margin-top: 1.3rem;
+    margin-top: 0.3rem;
+    padding: 1rem;
+    font-size: 1.5rem;
 }
 
