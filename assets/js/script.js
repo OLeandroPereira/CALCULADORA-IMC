@@ -8,7 +8,7 @@ function imc () {
 
     if (nome !== '' && altura !== '' && peso !== '') { // Se estiver preenchido
 
-        const valorIMC = (peso / (altura * altura)).toFixed(1);
+        const valorIMC = (peso / (altura * altura)).toFixed(2);
 
         let classificacao = '';
 
@@ -26,7 +26,7 @@ function imc () {
             classificacao = 'com obesidade grau III. Cuidado!'; 
         }   
            
-        
+
         resultado.textContent = `Olá ${nome}, o seu IMC é ${valorIMC}, e você está ${classificacao}`;
 
     }else {
