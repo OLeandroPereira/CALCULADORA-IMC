@@ -8,7 +8,7 @@ function imc () {
 
     if (nome !== '' && altura !== '' && peso !== '') { // Se estiver preenchido
 
-        const valorIMC = (peso / (altura * altura)).toFixed(2);
+        const valorIMC = (peso / (altura * altura)).toFixed(1);
 
         let classificacao = '';
 
