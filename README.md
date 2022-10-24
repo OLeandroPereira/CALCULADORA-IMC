@@ -37,7 +37,7 @@ Os usuários devem ser capazes de:
 
 <h3>Calculadora</h3>
 <div align="center">
-  <img src="image/img-calculadora.jpeg"/>
+  <img src="assets/image/img-calculadora.jpeg"/>
 </div>
 
 
