@@ -25,7 +25,7 @@ main {
     height: 40rem;
     gap: 1rem;
     border: 1px solid;
-    background: rgb(94, 94, 94);
+    background: rgb(146, 141, 141);
     border-radius: 2rem;
     font-size: 1.5rem;
 }
@@ -40,9 +40,9 @@ main {
 h1 {
     border-radius: 0.5rem;
     width: 28rem;
-    background: rgb(34, 14, 117);
+    background: rgb(255, 166, 82);
     color: #fff;
-    filter: drop-shadow(8px 8px 4px #685fb7);
+    filter: drop-shadow(5px 5px 2px #d6b475);
     font-size: 2.2rem;
 }
 
@@ -63,7 +63,7 @@ h1 {
 
 input {
     border-radius: .5rem;
-    filter: drop-shadow(8px 8px 4px #a5a59c);
+    filter: drop-shadow(8px 8px 4px rgb 146, 141, 141);
     
 }
 
@@ -78,7 +78,7 @@ input {
 }
 
 label {
-    background: rgb(94, 94, 94);
+    background: rgb(146, 141, 141);
     align-items: center;
     text-align: center;
     font-weight: 600;
@@ -87,8 +87,8 @@ label {
 
 #calcular:hover {
     transition: all .3s ease-in-out;
-    background: rgb(34, 14, 117);
-    filter: drop-shadow(8px 8px 4px rgb(15, 39, 145));
+    background: rgb(255, 166, 82);
+    filter: drop-shadow(8px 8px 4px (#d6b475));
 }
 
 .result, button {
